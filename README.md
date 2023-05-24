@@ -6,6 +6,9 @@ For example, if you input the number plate AAA0000 in the calculator it should o
 Another example, if you input the number plate AAA0099 in the calculator it should output, “The car with number plate AAA0099 is the 100th car and 99 cars were registered before the car.”
 
 
+Run the code in PyCharm
+
+
 In this code, the function count_vehicles() takes the number plate as input and calculates the count of vehicles registered before it. The calculation is based on the assumption that the number plate consists of three uppercase letters followed by four digits.
 
 The function includes a validation step to ensure the number plate meets the specified format. It checks if the length of the number plate is exactly 7 characters and verifies that the first three characters are letters and the last four characters are digits. It also converts the letters in the number plate to uppercase using the .upper() method.
